@@ -82,37 +82,16 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
-        "pk": 5524,
-        "fields": {
-            "description": "Bad news Jack. You went to the doctor for a checkup and the found that you have cancer yet again. You feel your chest tightening at the news. How could this have happened a third time. Your dear Olivia is by your side as the doctor tells you about a treatment but you are barely listening anymore. It was practically a coin flip if you'd survive this time. The last nearly took you so you have little hope this time. The doctor left the room, you and Olivia walked to the window and looked out. You saw kids playing in a playground. you couldn't help but smile. Life was worth living and you weren't going to let yourself be taken without a fight."
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 5525,
-        "fields": {
-            "description": "Your diagnosis has made you rethink your entire life. You had always wanted to be prime minister but it had come under such circumstances. You wanted to bring the country together not inadvertently bring about the destruction of Canada's oldest party. It seemed almost ridiculous to even imagine this world. Yet here you are. You wonder if you should tell the people that you've been diagnosed again or whether to leave them with the happiness you see on their faces daily. "
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 5527,
-        "fields": {
-            "description": "When you were rallying in rural Ontario a farmer stood up and asked you what you would do for them. They didn't access hospitals much and their wage was the amount of products sold. For them you hade practically done nothing."
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 6191,
-        "fields": {
-            "description": "Many issues have arisen throughout the campaign, most related to your leadership. However this is an issue bigger than your own administration, climate change. It's the unescapable issue of the year. People are wondering what you are going to do to combat the climate crisis. The green party of Canada, while still existing is a lot less influential than before. The one seat they won in 2011 was promptly lost in 2015, however their concerns are still important and their voice is still heard across Canada. You need to address these issues and try to gain the green vote."
-        }
-    },
-    {
-        "model": "campaign_trail.question",
         "pk": 6193,
         "fields": {
             "description": "The first debate has officially arrived. You need to prepare for it. Bernier and Trudeau are there however Yves-François Blanchet. Both are very charismatic leaders and are able to attract a lot of support with their platforms. You are charismatic too but they, especially Trudeau, have an advantage in that regard. You need a good strategy if you want to win."
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 6465,
+        "fields": {
+            "description": "put description here"
         }
     },
     {
@@ -201,9 +180,30 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
-        "pk": 6465,
+        "pk": 5524,
         "fields": {
-            "description": "put description here"
+            "description": "Bad news Jack. You went to the doctor for a checkup and the found that you have cancer yet again. You feel your chest tightening at the news. How could this have happened a third time. Your dear Olivia is by your side as the doctor tells you about a treatment but you are barely listening anymore. It was practically a coin flip if you'd survive this time. The last nearly took you so you have little hope this time. The doctor left the room, you and Olivia walked to the window and looked out. You saw kids playing in a playground. you couldn't help but smile. Life was worth living and you weren't going to let yourself be taken without a fight."
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 5525,
+        "fields": {
+            "description": "Your diagnosis has made you rethink your entire life. You had always wanted to be prime minister but it had come under such circumstances. You wanted to bring the country together not inadvertently bring about the destruction of Canada's oldest party. It seemed almost ridiculous to even imagine this world. Yet here you are. You wonder if you should tell the people that you've been diagnosed again or whether to leave them with the happiness you see on their faces daily. "
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 6191,
+        "fields": {
+            "description": "Many issues have arisen throughout the campaign, most related to your leadership. However this is an issue bigger than your own administration, climate change. It's the unescapable issue of the year. People are wondering what you are going to do to combat the climate crisis. The green party of Canada, while still existing is a lot less influential than before. The one seat they won in 2011 was promptly lost in 2015, however their concerns are still important and their voice is still heard across Canada. You need to address these issues and try to gain the green vote."
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 5527,
+        "fields": {
+            "description": "When you were rallying in rural Ontario a farmer stood up and asked you what you would do for them. They didn't access hospitals much and their wage was the amount of products sold. For them you hade practically done nothing."
         }
     },
     {
@@ -653,6 +653,22 @@ campaignTrail_temp.answers_json = [
         "pk": 6476,
         "fields": {
             "question": 6465,
+            "description": "New answer option"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 6477,
+        "fields": {
+            "question": 6445,
+            "description": "New answer option"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 6478,
+        "fields": {
+            "question": 6446,
             "description": "New answer option"
         }
     }
@@ -5546,7 +5562,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5148,
             "candidate": 1001,
-            "answer_feedback": "It's aggressive sure but in this case it doesn't hurt you. The Conservatives look desperate to try and saw face which hurts them significantly. Trudeau seems to gain slightly as moderate conservatives move to his campaign."
+            "answer_feedback": "It's aggressive sure but in this case it doesn't hurt you. The Conservatives look desperate to try and save face which hurts them significantly. Trudeau seems to gain slightly as moderate conservatives move to his campaign."
         }
     },
     {
@@ -6284,4 +6300,5 @@ campaignTrail_temp.jet_data = [{
     "banner_enabled": true
 }
 ]
+
 
