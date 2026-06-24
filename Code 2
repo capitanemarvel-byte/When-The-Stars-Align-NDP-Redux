@@ -105,7 +105,7 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 6194,
         "fields": {
-            "description": "TBM The Liberal Party under Justin Trudeau has seen a resurgence of popularity. They aim to win this time but you know they can't. Their support is way too low for an outright victory, however they may steal votes away from you if ignored for too long."
+            "description": "The Liberal Party under Justin Trudeau has seen a resurgence of popularity. Trudeau has stated multiple times that he wants "
         }
     },
     {
@@ -119,28 +119,28 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 6441,
         "fields": {
-            "description": "put description here"
+            "description": "Recently the Bloc Quebecois made a series of attacks on your administration related to the passage of the proportional representation referendum. They said that you used their lack of seats to modify the constitution as they couldn't block the measure. Quebecan voters especially are listening to this attack and are turning towards the Bloc in significant numbers. This is baseless but you know how much attacks and bad press influence voters."
         }
     },
     {
         "model": "campaign_trail.question",
         "pk": 6442,
         "fields": {
-            "description": "put description here"
+            "description": "A major scandal has befallen the Trudeau campaign as pictures from the late 1990's and early 2000's have revealed that he participated in blackface. This is a major point of attack that you can use against Trudeau to try and siphon off his support. Bernier has already gone on the attack and claimed that Trudeau deserved to be called a racist for these remarks. Blanchet has also called for a full apology from Trudeau and now you remain to speak on the matter."
         }
     },
     {
         "model": "campaign_trail.question",
         "pk": 6443,
         "fields": {
-            "description": "put description here"
+            "description": "The second debate is here. This time in French. All the candidates are present this time and this is a chance to climb the numbers significantly. This is Blanchet's moment to try and consolidate the Quebecan vote and you expect him to come out swinging, how will you deal with his attacks?"
         }
     },
     {
         "model": "campaign_trail.question",
         "pk": 6444,
         "fields": {
-            "description": "put description here"
+            "description": "The proportional system has had its effects already, parties created shortlists of MP's who will be chosen to fill the seats that the parties win in the election. The Conservatives however have more difficulties to find good candidates it seems as many have been removed due to controversies. Most recently, Heather Leung was removed due to anti-LGBTQ and anti-abortion comments made in a 2011 video. Many have criticized them for not properly vetting their candidates and many wonder what your opinion on the issue is."
         }
     },
     {
@@ -589,7 +589,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6468,
         "fields": {
             "question": 6195,
-            "description": "New answer option"
+            "description": "We need to release a statement to calm the fears about my health. We have already dealt with things like this and we will again."
         }
     },
     {
@@ -597,7 +597,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6469,
         "fields": {
             "question": 6441,
-            "description": "New answer option"
+            "description": "The Bloc's attack is ridiculous. Their lack of seats isn't our problem. Had they wanted to block us they should've just run a better campaign. it was clear in 2011 and 2015 that Quebec was tired of them and we won there. It's how democracy functions."
         }
     },
     {
@@ -605,7 +605,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6470,
         "fields": {
             "question": 6442,
-            "description": "New answer option"
+            "description": "Trudeau is a good man and I won't attack him on mistakes from his past. He does need to apologize however we need to accept that people make mistakes. He deserves to be given a chance to explain his actions."
         }
     },
     {
@@ -613,7 +613,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6471,
         "fields": {
             "question": 6443,
-            "description": "New answer option"
+            "description": "Blanchet is just a cranky separatist. His entire platform is trying to divide Canada into different nations. We should attack him on the fact that he is running to lead Canada while also wanting to dismantle it."
         }
     },
     {
@@ -621,7 +621,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6472,
         "fields": {
             "question": 6444,
-            "description": "New answer option"
+            "description": "The statements and actions made by the individuals aren't representative of the party. Bernier has shown on multiple occasions that these statements aren't tolerated. He has kicked these people from the shortlist and has made changes. We can't criticize that."
         }
     },
     {
@@ -710,6 +710,94 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 6192,
             "description": "I have been a major supporter of Indigenous People's rights. The reservations are clearly flawed but they are the best solution we currently have."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 6519,
+        "fields": {
+            "question": 6194,
+            "description": "Trudeau's Liberals are a very real threat to our chances at reelection, we need to make sure that their growth is limited as much as possible. We should moderate our rhetoric just slightly so we can appeal to the moderates without losing our base."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 6523,
+        "fields": {
+            "question": 6194,
+            "description": "We need to take the Liberals seriously, they are our biggest threat. We are more popular than Bernier but if they steal the votes we will never win"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 6532,
+        "fields": {
+            "question": 6195,
+            "description": "We need to give a speech and tell the population that I'm fine. At my age it's normal for things like a coughing fit to happen."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 6539,
+        "fields": {
+            "question": 6195,
+            "description": "We need to take this seriously. My health can become an issue but we can't let it become a problem for us. We need to give a press conference and admit that i did in fact have a coughing fit but it's purely because i am catching a cold."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 6546,
+        "fields": {
+            "question": 6441,
+            "description": "The Bloc's attacks are, frankly, the equivalent of them shooting themselves in the foot. They don't seem to realize that, had the proportional system been introduced, they wouldn't have lost all their seats twice in a row. This system benefits them which is why this attack is ridiculous"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 6553,
+        "fields": {
+            "question": 6441,
+            "description": "We should just ignore them. To anyone who does even a second of research will see that this method of voting actually improves their chances at winning seats."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 6554,
+        "fields": {
+            "question": 6442,
+            "description": "From someone claiming to be a \"soft progressive\" this is unacceptable behavior. We have grilled Bernier on his mistakes and we will do the same to Trudeau. We are all held to the same standards. A full apology is the bare minimum he can do."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 6565,
+        "fields": {
+            "question": 6442,
+            "description": "We won't attack him on this. His numbers are falling significantly already so why should we intervene."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 6574,
+        "fields": {
+            "question": 6443,
+            "description": "While it's true that Blanchet will try to do as much as possible given that this is the only debate where he really matters, we can't ignore the other two. We should give just as much time to prepare for him as Trudeau and Bernier."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 6580,
+        "fields": {
+            "question": 6443,
+            "description": "We can ignore Blanchet. While it's true that Quebec is the second most important province we need to focus on the major party leaders. They are the ones that truly have a chance of toppling us."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 6591,
+        "fields": {
+            "question": 6444,
+            "description": "We can call on him to address the core problems with the vetting process of his party but we can't try to twist this into being an attack on the party as a whole. It's clear that they don't represent their beliefs but it's still ridiculous how many times it has happened."
         }
     }
 ];
@@ -3345,6 +3433,306 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 1005,
             "global_multiplier": 0.075
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6521,
+        "fields": {
+            "answer": 6519,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6522,
+        "fields": {
+            "answer": 6519,
+            "candidate": 1001,
+            "affected_candidate": 1005,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6525,
+        "fields": {
+            "answer": 6523,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6526,
+        "fields": {
+            "answer": 6523,
+            "candidate": 1001,
+            "affected_candidate": 1002,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6527,
+        "fields": {
+            "answer": 6523,
+            "candidate": 1001,
+            "affected_candidate": 1005,
+            "global_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6529,
+        "fields": {
+            "answer": 6468,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6530,
+        "fields": {
+            "answer": 6468,
+            "candidate": 1001,
+            "affected_candidate": 1002,
+            "global_multiplier": 0.075
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6531,
+        "fields": {
+            "answer": 6468,
+            "candidate": 1001,
+            "affected_candidate": 1005,
+            "global_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6534,
+        "fields": {
+            "answer": 6532,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6535,
+        "fields": {
+            "answer": 6532,
+            "candidate": 1001,
+            "affected_candidate": 1002,
+            "global_multiplier": 0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6536,
+        "fields": {
+            "answer": 6532,
+            "candidate": 1001,
+            "affected_candidate": 1005,
+            "global_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6540,
+        "fields": {
+            "answer": 6539,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6543,
+        "fields": {
+            "answer": 6539,
+            "candidate": 1001,
+            "affected_candidate": 1002,
+            "global_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6544,
+        "fields": {
+            "answer": 6539,
+            "candidate": 1001,
+            "affected_candidate": 1005,
+            "global_multiplier": 0.006
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6556,
+        "fields": {
+            "answer": 6470,
+            "candidate": 1001,
+            "affected_candidate": 1005,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6557,
+        "fields": {
+            "answer": 6470,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "global_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6558,
+        "fields": {
+            "answer": 6470,
+            "candidate": 1001,
+            "affected_candidate": 1002,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6561,
+        "fields": {
+            "answer": 6554,
+            "candidate": 1001,
+            "affected_candidate": 1005,
+            "global_multiplier": -0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6562,
+        "fields": {
+            "answer": 6554,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "global_multiplier": 0.75
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6563,
+        "fields": {
+            "answer": 6554,
+            "candidate": 1001,
+            "affected_candidate": 1002,
+            "global_multiplier": 0.3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6567,
+        "fields": {
+            "answer": 6565,
+            "candidate": 1001,
+            "affected_candidate": 1005,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6568,
+        "fields": {
+            "answer": 6565,
+            "candidate": 1001,
+            "affected_candidate": 1002,
+            "global_multiplier": 0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6569,
+        "fields": {
+            "answer": 6565,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6576,
+        "fields": {
+            "answer": 6574,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "global_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6577,
+        "fields": {
+            "answer": 6574,
+            "candidate": 1001,
+            "affected_candidate": 1002,
+            "global_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6578,
+        "fields": {
+            "answer": 6574,
+            "candidate": 1001,
+            "affected_candidate": 1005,
+            "global_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6586,
+        "fields": {
+            "answer": 6580,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6587,
+        "fields": {
+            "answer": 6580,
+            "candidate": 1001,
+            "affected_candidate": 1002,
+            "global_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6588,
+        "fields": {
+            "answer": 6580,
+            "candidate": 1001,
+            "affected_candidate": 1005,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6590,
+        "fields": {
+            "answer": 6472,
+            "candidate": 1001,
+            "affected_candidate": 1002,
+            "global_multiplier": -0.015
+        }
     }
 ];
 
@@ -5454,6 +5842,193 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 1001,
             "state_multiplier": 0.04
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 6515,
+        "fields": {
+            "answer": 6467,
+            "state": 5716,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 6516,
+        "fields": {
+            "answer": 6467,
+            "state": 5722,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 6517,
+        "fields": {
+            "answer": 6467,
+            "state": 5758,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 6518,
+        "fields": {
+            "answer": 6467,
+            "state": 5770,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "state_multiplier": 0.07
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 6548,
+        "fields": {
+            "answer": 6469,
+            "state": 5770,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "state_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 6549,
+        "fields": {
+            "answer": 6469,
+            "state": 5770,
+            "candidate": 1001,
+            "affected_candidate": 1002,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 6550,
+        "fields": {
+            "answer": 6469,
+            "state": 5770,
+            "candidate": 1001,
+            "affected_candidate": 1005,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 6551,
+        "fields": {
+            "answer": 6469,
+            "state": 5770,
+            "candidate": 1001,
+            "affected_candidate": 1007,
+            "state_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 6559,
+        "fields": {
+            "answer": 6470,
+            "state": 5770,
+            "candidate": 1001,
+            "affected_candidate": 1007,
+            "state_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 6564,
+        "fields": {
+            "answer": 6554,
+            "state": 5770,
+            "candidate": 1001,
+            "affected_candidate": 1007,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 6570,
+        "fields": {
+            "answer": 6565,
+            "state": 5770,
+            "candidate": 1001,
+            "affected_candidate": 1007,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 6572,
+        "fields": {
+            "answer": 6471,
+            "state": 5770,
+            "candidate": 1001,
+            "affected_candidate": 1007,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 6573,
+        "fields": {
+            "answer": 6471,
+            "state": 5770,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "state_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 6579,
+        "fields": {
+            "answer": 6574,
+            "state": 5770,
+            "candidate": 1001,
+            "affected_candidate": 1007,
+            "state_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 6582,
+        "fields": {
+            "answer": 6553,
+            "state": 5770,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 6583,
+        "fields": {
+            "answer": 6553,
+            "state": 5770,
+            "candidate": 1001,
+            "affected_candidate": 1007,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 6584,
+        "fields": {
+            "answer": 6546,
+            "state": 5770,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "state_multiplier": 0.005
+        }
     }
 ];
 
@@ -5509,7 +6084,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5169,
             "candidate": 1001,
-            "answer_feedback": "Its a good sentiment and he does address the statements, he gives a press conference admitting that the statements weren't what he meant. He explains that he was worried about a loss of Canadian identity. The whole ordeal still hurts him a little."
+            "answer_feedback": "Its a good sentiment and he does address them, he gives a press conference admitting that the statements weren't what he meant. He explains that he was worried about a loss of Canadian identity. The whole ordeal still hurts him a little."
         }
     },
     {
@@ -5924,6 +6499,150 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 6467,
             "candidate": 1001,
             "answer_feedback": "Not trying to stop their growth is not a good strategy and they take advantage. Trudeau tours the nation without break and his numbers seem to be growing exponentialy"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 6520,
+        "fields": {
+            "answer": 6519,
+            "candidate": 1001,
+            "answer_feedback": "Many moderate voters see you as the only real leftist candidate and with a single right wing party many are scared of vote splitting."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 6524,
+        "fields": {
+            "answer": 6523,
+            "candidate": 1001,
+            "answer_feedback": "The population notices the division on the left and Bernier uses this to campaign as the stable and steady leader of Canada. His numbers grow while both You and Trudeau suffer in the polls."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 6528,
+        "fields": {
+            "answer": 6468,
+            "candidate": 1001,
+            "answer_feedback": "You're getting older, the same arguments don't work anymore and the fears aren't calmed, the Liberals are gaining significantly while Bernier starts being seen as the true stable candidate. There are even rumors of a potential resignation."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 6533,
+        "fields": {
+            "answer": 6532,
+            "candidate": 1001,
+            "answer_feedback": "This addresses the rumors and makes people more confident however they are still worried. The damage is mostly contained for now."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 6541,
+        "fields": {
+            "answer": 6539,
+            "candidate": 1001,
+            "answer_feedback": "People seem to appreciate the honesty and your excuse that you are just catching a cold makes this story fizzle out after a few days."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 6547,
+        "fields": {
+            "answer": 6469,
+            "candidate": 1001,
+            "answer_feedback": "This counter attack works well at hammering away at their support. The Bloc leaves the whole ordeal embarrassed but party fatigue with the NDP leads to the polls rising for the conservatives and Liberals"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 6552,
+        "fields": {
+            "answer": 6546,
+            "candidate": 1001,
+            "answer_feedback": "The Bloc is completely embarrassed by this rebuttal. Mentioning your strength in Quebec is a strong line of attack and keeps the effects from party fatigue minimal."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 6555,
+        "fields": {
+            "answer": 6470,
+            "candidate": 1001,
+            "answer_feedback": "Trudeau gives a press conference where he explains that it was a \"massive blind spot\" he had at the time and that he didn't think of it as problematic at the time. He has fully apologized but his numbers have fallen significantly in your favor."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 6560,
+        "fields": {
+            "answer": 6554,
+            "candidate": 1001,
+            "answer_feedback": "Aggressive but accepted. It's a good point of attack and with Trudeau's numbers falling as bad as they are people wonder about if his campaign will even survive until election day."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 6566,
+        "fields": {
+            "answer": 6565,
+            "candidate": 1001,
+            "answer_feedback": "No harm no foul. His numbers fall, yours rise, it's standard after such a scandal."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 6571,
+        "fields": {
+            "answer": 6471,
+            "candidate": 1001,
+            "answer_feedback": "This attack works well enough but some Quebeckers are still highly patriotic which makes them move away from your campaign. In general its a good attack. Bernier and Trudeau attack mainly each other but throw some jabs at you. The debate ends in a tie."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 6575,
+        "fields": {
+            "answer": 6574,
+            "candidate": 1001,
+            "answer_feedback": "This works well and you fend off the attacks from the three of them. With such a wide palette of candidates you emerge the winner by a small margin."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 6581,
+        "fields": {
+            "answer": 6553,
+            "candidate": 1001,
+            "answer_feedback": "Dumb or not it's still an attack and people notice your lack of reaction a lot more than the lack of sense from the argument."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 6585,
+        "fields": {
+            "answer": 6580,
+            "candidate": 1001,
+            "answer_feedback": "Surprisingly this wasn't too bad of an idea. Blanchet attacks you numerously and will clearly steal votes away from Quebec however you held off Bernier and Trudeau which boosts you everywhere else."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 6589,
+        "fields": {
+            "answer": 6472,
+            "candidate": 1001,
+            "answer_feedback": "While true it's seen as a missed opportunity at a great line of attack against Bernier. In any case these cases have remained isolated but it hurts his numbers."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 6592,
+        "fields": {
+            "answer": 6591,
+            "candidate": 1001,
+            "answer_feedback": "This is probably the best you could've done. You haven't been to aggressive but you also didn't let these incidents pass without consequences"
         }
     }
 ];
@@ -6559,10 +7278,27 @@ campaignTrail_temp.jet_data = [{
         "electionPk": "2019"
     },
     "bunnyhop_enabled": false,
-    "bunnyhop_pools": [],
+    "bunnyhop_pools": [
+        {
+            "id": 1782321570722,
+            "index": 0,
+            "spots": 1,
+            "spotsCond": "",
+            "spotsAlt": null,
+            "questions": []
+        }
+    ],
     "mapping_enabled": true,
     "cyoa_enabled": true,
-    "cyoa_data": {},
+    "cyoa_data": {
+        "1782316756106": {
+            "answer": 6545,
+            "question": 5528,
+            "id": 1782316756106,
+            "conditions": [],
+            "conditionOperator": "AND"
+        }
+    },
     "cyoa_variables": {
         "1782039694805": {
             "id": 1782039694805,
