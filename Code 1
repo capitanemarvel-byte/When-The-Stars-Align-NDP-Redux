@@ -7,7 +7,7 @@ campaignTrail_temp.election_json = [
             "display_year": "2019-WTSA",
             "summary": "Ever since 2015's federal election saw the NDP candidate Jack Layton win a minority government, Canada has seen a large shift leftwards. Healthcare has been reformed and cooperation between parties has seen a surge. This all was temporary however. With Harper gone and the rise of Maxime Bernier, the Conservatives became nothing more than a no-party, rejecting Layton's bills without reason. Then in a dramatic shift in Canadian politics, the Liberal party collapsed. Its two 3rd place finishes and no one running for its leadership ultimately lead to the party's implosion.The nation saw it's oldest party fall from leading the government to leading the opposition and now completly collapsing",
             "image_url": "https://imgs.search.brave.com/rSm-OQyaPA3ZHm9nENEJQdDM-hzIL9ihw1Bj15CupvI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9lbGVj/dGlvbnMtY2FuYWRh/LXZvdGUtc2lnbi1m/cm9udC1wb2xsaW5n/LXN0YXRpb24tc3Qt/aGVybWVuZWdpbGRl/LWNhLW9jdG9iZXIt/MTYxMTc1MDEwLmpw/Zw",
-            "winning_electoral_vote_number": 0,
+         "winning_electoral_vote_number": 0,
             "advisor_url": "https://imgs.search.brave.com/Fuch4QWGPqaqchrIQa-hKVoZvaT1c9io8itnx4-mAbw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9nbG9i/YWxuZXdzLmNhL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDExLzA4/L2xheXRvbmNhbmUu/anBnP3F1YWxpdHk9/NjUmc3RyaXA9YWxs" ,
             "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n</ul>",
             "recommended_reading_enabled": false,
@@ -292,7 +292,7 @@ jet_data = {
     "descriptionWindowTextColor": "#000000",
     "startButtonColor": "#ff8800",
     "bannerImageUrl": "https://imgs.search.brave.com/P62K1xPrWzRerezCgvJ-8QCZsvn5YfdvL84ZvG3sRdQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvODMw/ODE3ODcvcGhvdG8v/amFjay1sYXl0b24t/bGVhZGVyLW9mLXRo/ZS1uZXctZGVtb2Ny/YXRpYy1wYXJ0eS1h/ZGRyZXNzZXMtdGhl/LW1lZGlhLWZvbGxv/d2luZy10aGUtZnJl/bmNoLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz0taHhZcnk4/UEtta2hLM1pMOUdS/UUp0UEZPTkd3ZmxE/ZzN6ZVZfUHZ3eWJF/PQ",
-    "backgroundImageUrl": "https://www.jetsimon.com/public/static/images/background.jpg",
+    "backgroundImageUrl": "https://media.gettyimages.com/id/604055814/photo/ottawa-parliament-hill-with-centennial-flame.jpg?s=612x612&w=0&k=20&c=QlFgFoijlufuCq9AkgELuKb01X4o1VXomCow_D4BLIY=",
     "gameTitle": "When The Stars Align",
     "customQuote": "My friends, love is better than anger.  Hope is better than fear. Optimism is better than despair. So let us be loving, hopeful and optimistic. And we’ll change the world.",
     "quoteTextColor": "#ffffff",
@@ -322,7 +322,7 @@ function applyTheme(theme) {
     }
 
     if (theme.body_background) {
-        document.body.style.backgroundImage = `url("${theme.body_background}")`;
+        document.body.style.backgroundImage = `https://media.gettyimages.com/id/604055814/photo/ottawa-parliament-hill-with-centennial-flame.jpg?s=612x612&w=0&k=20&c=QlFgFoijlufuCq9AkgELuKb01X4o1VXomCow_D4BLIY=`;
         document.body.style.backgroundSize = "cover";
         document.body.style.backgroundAttachment = "fixed";
     }
@@ -681,10 +681,10 @@ function setupMusicPlayer() {
     if (!gameWindow || document.getElementById("player")) return;
 
     const defaultSongs = [
-        ["Borderline", "Tame Impala", "https://imgs.search.brave.com/uQD26ypt4AjYTFsoM-F6e_b2tKdURflE7_IyYWa5eM0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzk1LzA2/LzI0Lzk1MDYyNDFi/NzU1MTZkMDBkMGM2/YTAxYzRjZDc1MjUz/LmpwZw", "https://audio.jukehost.co.uk/019ef0f4-bda8-73d1-973a-54612ed125ba"],
-        ["The Less I Know The Better", "Tame Impala", "https://imgs.search.brave.com/3np3LlLswk8wYyBXexfmJgs736bI1yo4xUXjQB_xWt4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pMS5z/bmRjZG4uY29tL2Fy/dHdvcmtzLWFldGps/YU5SVkR6OFpSV0gt/czB6VHdBLXQxMDgw/eDEwODAuanBn", "https://audio.jukehost.co.uk/019ef0fc-ebf2-73db-addc-c6dc1ca359fc"],
-        ["Bout It", "JMSN", "https://imgs.search.brave.com/n5ECPJA3MtmyhCEMJQxv1h5s1klPU7IlGrjxFYm9Tlc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pczEt/c3NsLm16c3RhdGlj/LmNvbS9pbWFnZS90/aHVtYi9NdXNpYzIx/MS92NC81Yy9iZi8x/Yi81Y2JmMWIwZC00/Mzk1LWEzNDItNzYy/Mi00MmYwODUxZGUz/N2MvODU5NzEzNzQy/MjkxLmpwZy84MDB4/ODAwY2MuanBn", "https://audio.jukehost.co.uk/019ef10a-2935-71b1-84d7-52064d644c8c"],
-        ["Goth", "Sidewalks And Skeletons", "https://imgs.search.brave.com/cEvR9FZkzhU_SEUqU_MJvjKYFmMyx0gqt46bjALTo9k/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLnNj/ZG4uY28vaW1hZ2Uv/YWI2NzYxNmQwMDAw/MWUwMmJiYWY5ZGU2/YzQxOGEwYWE2Y2I3/YjkzOA", "https://audio.jukehost.co.uk/019ef10c-de9b-7076-a752-a57eddecfa80"]
+        ["Inner Ninja", "Classified", "https://imgs.search.brave.com/wDOORcrs-znGLVszhd9bk83-Ca8b4V4WPsM364B5uHI/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZ2VuaXVzLmNv/bS8yYTYyNjVlNDE4/NjVlZjMzMDYxMmFj/Mzk0MTkyNWJjZS4x/MDAweDEwMDB4MS5w/bmc", "https://audio.jukehost.co.uk/019eff95-b71f-7343-9665-23427aff7a2f"],
+        ["Load Me Up", "Matthew Good Band", "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/Matthew_Good_Band_Load_Me_Up.jpg/250px-Matthew_Good_Band_Load_Me_Up.jpg", "https://audio.jukehost.co.uk/019eff8c-fc0e-735f-89de-cfd36ab336b4"],
+        ["Bobcaygeon", "The Tragically Hip", "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Bobcaygeon_-_Single_Cover.jpg/250px-Bobcaygeon_-_Single_Cover.jpg", "https://audio.jukehost.co.uk/019eff89-c589-73c6-bc65-0639306ec260"],
+        ["Society", "The Weeknd", "https://t2.genius.com/unsafe/258x258/https%3A%2F%2Fimages.genius.com%2Fba2d887c6b24ad13736cc6f06b863197.864x864x1.jpg", "https://audio.jukehost.co.uk/019eff82-6332-71e9-9402-55c1641bc8de"]
         
 
     ];
