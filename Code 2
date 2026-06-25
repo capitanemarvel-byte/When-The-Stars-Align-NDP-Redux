@@ -21,7 +21,7 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 1042,
         "fields": {
-            "description": "Your excitement wains as you realize that, while you have won, a majority isn't a possibility. You will need to appeal to more independent spirited MP's to try and gain a majority. The obvious answer is to get the Liberals on your side or even into a coalition. It's very likely that you won't be able to form a government due to the establishment not wanting to give up power. Some other sides are saying that conservatives might somehow be willing to work with you."
+            "description": "Your excitement wains as you realize that, while you have won, a majority isn't a possibility. You will need to appeal to more leftist MP's to try and gain a voting majority. The obvious answer is to get the Liberals on your side or even into a coalition. It's very likely that you won't be able to form a government due to the establishment not wanting to give up power. Some other sides are saying that conservatives might somehow be willing to work with you."
         }
     },
     {
@@ -70,7 +70,7 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 5522,
         "fields": {
-            "description": "Bernier is relentless. He recently went on a tour across the country to try and shore up support. Most of it went unnoticed until he got to Ottawa and delivered a speech on the dangers of socialism. It was all lies, you knew it was. But people believed him. Many have turned on you and his numbers have risen significantly in Ontario. What do you plan on doing to contain the damage?"
+            "description": "Bernier is relentless. He recently went on a tour across the country to try and shore up support. Most of it went unnoticed until he got to Ottawa and delivered a speech on the dangers of socialism. It was all lies, you knew it was. But people believed him. Many have turned on you and his numbers have risen significantly in Ontario and slightly less across the nation. What do you plan on doing to contain the damage?"
         }
     },
     {
@@ -133,7 +133,7 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 6443,
         "fields": {
-            "description": "The French language debate is here. This time in French. All the candidates are present this time and this is a chance to climb the numbers significantly. This is Blanchet's moment to try and consolidate the Quebecan vote and you expect him to come out swinging, how will you deal with his attacks?"
+            "description": "The French language debate is here. This time in French. All the candidates are present this time and this is a chance to climb the numbers significantly. This is Blanchet's moment to try and consolidate the Quebecker vote and you expect him to come out swinging, how will you deal with his attacks?"
         }
     },
     {
@@ -175,14 +175,14 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 6448,
         "fields": {
-            "description": "put description here"
+            "description": "The second English language debate is tomorrow, we need to assume that questions about your age and health will be made. Foreign policy is the main subject of the debate but they almost never stay about the same subject as they are meant to. You'll probably be the main defender between the three of you. Blanchet has chosen to campaign in Quebec rather than attending."
         }
     },
     {
         "model": "campaign_trail.question",
         "pk": 6449,
         "fields": {
-            "description": "put description here"
+            "description": "Recently, American president Donald Trump announced his endorsement of Maxime Bernier. This is only the second time an American president has endorsed a Canadian prime ministerial candidate and it has drawn the attention of the nation. Trump is historically unpopular in Canada but Bernier could use this and Harper's endorsements to show that actual leaders support him. This could be used to gain support in many regions even with Trump low popularity."
         }
     },
     {
@@ -613,7 +613,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6471,
         "fields": {
             "question": 6443,
-            "description": "Blanchet is just a cranky separatist. His entire platform is trying to divide Canada into different nations. We should attack him on the fact that he is running to lead Canada while also wanting to dismantle it."
+            "description": "Blanchet is just a cranky separatist. His entire platform is trying to divide Canada into different nations. We should attack him on the fact that he is running for Prime Minister of Canada while also wanting to dismantle the nation."
         }
     },
     {
@@ -637,7 +637,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6474,
         "fields": {
             "question": 6448,
-            "description": "New answer option"
+            "description": "We need to prepare for attacks on my age but we can't assume that's all they'll attack. We should prepare for everything equally."
         }
     },
     {
@@ -645,7 +645,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6475,
         "fields": {
             "question": 6449,
-            "description": "New answer option"
+            "description": "We need to be honest with ourselves, Bernier is practically a spitting image of Trump when you look at him politically. They believe the same things and will govern the same way, and if we are looking at the numbers, that isn't the way Canadians want."
         }
     },
     {
@@ -878,6 +878,54 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 6445,
             "description": "We already take these issues seriously, we don't need to do more than we already do. Our nation is working towards a green future"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 6653,
+        "fields": {
+            "question": 6448,
+            "description": "We need to go on the attack this time. It's our last chance to keep the vote splitting contained. We should go on the offensive  against Trudeau and his Liberal party. We should attack them on being nothing but vote splitters and will cause Bernier to win."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 6662,
+        "fields": {
+            "question": 6448,
+            "description": "We have to show that this election is a two way race. We need to focus on Bernier and attack him when he tries to attack us."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 6667,
+        "fields": {
+            "question": 6448,
+            "description": "This debate is on foreign policy, we should focus on the topic. People who listen are worried about that, not my age. We should let Bernier and Trudeau look distracted while we appear focused."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 6672,
+        "fields": {
+            "question": 6449,
+            "description": "This endorsement is not a surprise. I don't think a single Canadian believed that Trump would endorse anyone else.  Plus with Trump numbers here i think we can let the endorsement hurt Bernier on it's own."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 6680,
+        "fields": {
+            "question": 6449,
+            "description": "We should run ad campaigns tying both of them together, they already have similar views so they should be similar in many other things. We need to try and tell Canadians that he's Canada's Trump."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 6683,
+        "fields": {
+            "question": 6449,
+            "description": "This endorsement is probably just going to hurt him. We should ignore this and focus on the campaign"
         }
     }
 ];
@@ -4093,6 +4141,186 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 1001,
             "global_multiplier": 0.005
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6655,
+        "fields": {
+            "answer": 6474,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "global_multiplier": -0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6656,
+        "fields": {
+            "answer": 6474,
+            "candidate": 1001,
+            "affected_candidate": 1002,
+            "global_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6657,
+        "fields": {
+            "answer": 6474,
+            "candidate": 1001,
+            "affected_candidate": 1005,
+            "global_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6659,
+        "fields": {
+            "answer": 6653,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6660,
+        "fields": {
+            "answer": 6653,
+            "candidate": 1001,
+            "affected_candidate": 1005,
+            "global_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6661,
+        "fields": {
+            "answer": 6653,
+            "candidate": 1001,
+            "affected_candidate": 1002,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6664,
+        "fields": {
+            "answer": 6662,
+            "candidate": 1001,
+            "affected_candidate": 1005,
+            "global_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6665,
+        "fields": {
+            "answer": 6662,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6666,
+        "fields": {
+            "answer": 6662,
+            "candidate": 1001,
+            "affected_candidate": 1002,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6669,
+        "fields": {
+            "answer": 6667,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "global_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6670,
+        "fields": {
+            "answer": 6667,
+            "candidate": 1001,
+            "affected_candidate": 1002,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6671,
+        "fields": {
+            "answer": 6667,
+            "candidate": 1001,
+            "affected_candidate": 1005,
+            "global_multiplier": 0
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6674,
+        "fields": {
+            "answer": 6475,
+            "candidate": 1001,
+            "affected_candidate": 1001,
+            "global_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6675,
+        "fields": {
+            "answer": 6475,
+            "candidate": 1001,
+            "affected_candidate": 1002,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6676,
+        "fields": {
+            "answer": 6475,
+            "candidate": 1001,
+            "affected_candidate": 1005,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6679,
+        "fields": {
+            "answer": 6672,
+            "candidate": 1001,
+            "affected_candidate": 1002,
+            "global_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6682,
+        "fields": {
+            "answer": 6680,
+            "candidate": 1001,
+            "affected_candidate": 1002,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 6685,
+        "fields": {
+            "answer": 6683,
+            "candidate": 1001,
+            "affected_candidate": 1002,
+            "global_multiplier": 0.005
+        }
     }
 ];
 
@@ -7220,6 +7448,78 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 1001,
             "answer_feedback": "The greens are outraged and start campaigning against you in British Columbia extensively. A small green movement in Ontario also attacks you."
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 6654,
+        "fields": {
+            "answer": 6474,
+            "candidate": 1001,
+            "answer_feedback": "You prepared well but you were on the defensive the entire debate. Trudeau and Bernier tied in the polls of who was the winner."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 6658,
+        "fields": {
+            "answer": 6653,
+            "candidate": 1001,
+            "answer_feedback": "The debate goes off the rails a few times between you and Trudeau's fighting. Bernier remains calm and surprisingly seems like the most statesman-like candidate."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 6663,
+        "fields": {
+            "answer": 6662,
+            "candidate": 1001,
+            "answer_feedback": "Trudeau keeps focus on the topic of the debate and seems like the most focused and trustworthy candidate. You and Bernier are considered, easily, the losers of the debate."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 6668,
+        "fields": {
+            "answer": 6667,
+            "candidate": 1001,
+            "answer_feedback": "They attacked you through the whole debate and you jokingly said \"i might be old but at least i have focus unlike them\". You are considered as the big winner of this debate."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 6673,
+        "fields": {
+            "answer": 6475,
+            "candidate": 1001,
+            "answer_feedback": "This is a good way to tie them together and utilize Canadian's disapproval with Trump to hurt Bernier. It helps you a lot and helps the other two smaller parties a bit."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 6678,
+        "fields": {
+            "answer": 6672,
+            "candidate": 1001,
+            "answer_feedback": "No harm no foul. It really wasn't something unexpected and Bernier's numbers fall only slightly due to your lack of reaction and the fact that Harper is still popular."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 6681,
+        "fields": {
+            "answer": 6680,
+            "candidate": 1001,
+            "answer_feedback": "This attack works well, Bernier has echoed certain policies similar to Trump and while his scandals aren't nearly as bad as Trump's, he is still seen as the controversial candidate between you, him and Trudeau."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 6684,
+        "fields": {
+            "answer": 6683,
+            "candidate": 1001,
+            "answer_feedback": "Bernier somehow manages to spin this as you being scared and used Harper's endorsement to boost his profile as a candidate. He sees a very minor uptick in the polls."
+        }
     }
 ];
 
@@ -7937,4 +8237,5 @@ campaignTrail_temp.jet_data = [{
     "banner_enabled": true
 }
 ]
+
 
